@@ -1,0 +1,96 @@
+.landingPagecontainer{
+    background : url("../public/background.png");
+     background-size : cover ;
+     background-position: center;
+    background-repeat : no-repeat; 
+     width : 100vw ; 
+    height : 100vh;
+    color : white;
+}
+
+.landingPagecontainer nav{
+    padding-inline : 2rem ;
+    padding-block : 1.2rem;
+    display : flex ;
+    justify-content : space-between;
+    align-items : center;
+}
+
+
+.landingPagecontainer nav h2 {
+    font-size : 1.8 rem ;
+    font-weight : 500;
+}
+
+.landingPagecontainer nav .navList {
+    display : flex ;
+    gap : 1.9rem;
+}
+
+.Maincontainer{
+    display : flex ;
+    justify-content : space-between;
+    padding-inline :4rem;
+    height : 70vh;
+    align-items : center;
+}
+
+.Maincontainer > div:nth-child(1){
+    font-size:2.2rem;
+
+}
+
+.Maincontainer > div:nth-child(1) div[role = "button"]{
+    background : #e2ec52;
+    width : fit-content ;
+    padding : 1rem;
+    border-radius : 20px;
+    margin-top:1.9rem;
+}
+
+.Maincontainer > div:nth-child(2) img{
+    height:10vh;
+    width: auto;
+}
+
+.Maincontainer > div:nth-child(2) div[role = "button"] a {
+    text-decoration: none;
+    color: white;
+    font-weight: 1.7rem;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 20px;
+  text-align: center;
+}
+
+.meetContainer {
+  display: flex;
+  padding-inline: 20px;
+  height: 80vh;
+  gap: 10vw;
+  justify-content: center;
+}
+
+
+
+.leftPanel {
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.rightPanel {
+  display: flex;
+  align-items: center;
+}
+
+.rightPanel > img {
+  width: 30vw;
+  height: auto;
+  border-radius: 20px;
+}
